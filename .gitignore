@@ -1,43 +1,96 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# =========================
+# KiCad
+# =========================
 
-# Temporary files
-*.000
+# Auto-saves / backups
 *.bak
 *.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
-*~
-~*
+*.kicad_prl
+*.sch-bak
+*.pcb-bak
 _autosave-*
-\#auto_saved_files\#
-*.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
-~*.lck
-\#auto_saved_files#
 
-# Netlist files (exported from Eeschema)
+# Plot / fabrication outputs
+*.gbr
+*.gerber
+*.drl
+*.d356
+*.dxf
+*.hpgl
+*.pdf
+*.svg
+*.ps
+*.step
+*.stp
+*.zip
+
+# Position / BOM exports
+*.csv
+*.pos
+*.rpt
+
+# Netlists and intermediate files
+*.net
+*.xml
+
+# KiCad cache files
+*-cache.lib
+fp-info-cache
+
+# Simulation/temp files
+*.sim
+*.raw
+*.log
+
+# =========================
+# LTspice
+# =========================
+
+# Simulation outputs
+*.raw
+*.log
+*.op.raw
 *.net
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+# LTspice backups
+*.bak
+*.tmp
 
-# Exported BOM files
-*.xml
-*.csv
+# Waveform settings
+*.plt
 
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
+# Generated files
+*.log
+*.fail
+*.out
 
-# Local git-based history (KiCad 9.0+)
-.history
+# =========================
+# OS / Editor junk
+# =========================
 
-# Local project settings
-*.kicad_prl
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# =========================
+# Python (if you use scripts)
+# =========================
+
+__pycache__/
+*.pyc
+venv/
+.env
