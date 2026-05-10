@@ -632,6 +632,10 @@
     [
       "233fdc66-cabb-4bf4-9059-20f2ac1021ef",
       "Outdoor temperature"
+    ],
+    [
+      "9f63e686-1700-4f89-a18f-40eeb790baed",
+      "Coolant temperature"
     ]
   ],
   "text_variables": {}

@@ -2309,6 +2309,28 @@
 		)
 		(uuid "fbb0be73-49e1-43b4-8abb-de4deebe8be8")
 	)
+	(global_label "CoolantTemp"
+		(shape input)
+		(at 132.08 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02646604-6076-4202-ae40-46074ee887d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.9394 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape output)
 		(at 222.25 83.82 180)
@@ -2529,6 +2551,28 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 34.29 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d4d3041-b60b-4f21-b6df-c861a38bf90e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.1924 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape output)
 		(at 76.2 44.45 0)
@@ -2652,6 +2696,28 @@
 		(uuid "aabb08f9-79b2-4c1f-9314-a57d9f6769fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.5976 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CoolantTemp"
+		(shape output)
+		(at 48.26 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6baddbd-4abc-41e9-8da3-6d794df198f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.4006 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,6 +4485,68 @@
 			(project "Caravan-monitor"
 				(path "/4b94aa5f-1c73-4d2e-8117-e53a25103462"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 147.32)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f63e686-1700-4f89-a18f-40eeb790baed")
+		(property "Sheetname" "Coolant temperature"
+			(at 34.29 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "coolant_temperature.kicad_sch"
+			(at 34.29 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 34.29 149.86 180)
+			(uuid "69d10813-2f77-41f1-bbf4-f462736e0bac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 48.26 149.86 0)
+			(uuid "623bbfdb-c8df-4239-ad5d-f5869b2553e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Caravan-monitor"
+				(path "/4b94aa5f-1c73-4d2e-8117-e53a25103462"
+					(page "7")
 				)
 			)
 		)
