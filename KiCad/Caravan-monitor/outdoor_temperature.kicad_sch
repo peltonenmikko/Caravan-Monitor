@@ -533,6 +533,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Connects to Vishay NTCLE413E2103F102L"
+		(exclude_from_sim no)
+		(at 96.266 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db722f5d-a8c0-4c47-afa2-65bd18b80f7e")
+	)
 	(junction
 		(at 132.08 86.36)
 		(diameter 0)
@@ -665,7 +675,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Outdoor temp"
 			(at 122.555 88.9 0)
 			(effects
 				(font
