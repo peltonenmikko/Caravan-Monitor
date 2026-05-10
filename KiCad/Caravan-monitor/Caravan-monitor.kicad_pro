@@ -622,8 +622,16 @@
       "Battery voltage monitoring"
     ],
     [
+      "2e488f1d-7b26-4619-9996-dd92d2ed7591",
+      "Indoor temperature"
+    ],
+    [
       "d5201c02-2c26-45b6-9edd-823855560595",
       "5V Power supply"
+    ],
+    [
+      "233fdc66-cabb-4bf4-9059-20f2ac1021ef",
+      "Outdoor temperature"
     ]
   ],
   "text_variables": {}

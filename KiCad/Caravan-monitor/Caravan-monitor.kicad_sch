@@ -1790,7 +1790,7 @@
 		(uuid "25ea5eb0-ad37-4ab3-a3c7-42831c5af8bb")
 	)
 	(junction
-		(at 110.49 83.82)
+		(at 92.71 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3120abcd-e3cf-41cd-86a0-349ebd6e592d")
@@ -1802,7 +1802,7 @@
 		(uuid "780365ca-6da8-4181-a807-6d330e8539c2")
 	)
 	(junction
-		(at 121.92 83.82)
+		(at 104.14 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84591a94-ea76-4636-8dfb-25d0528b7e5d")
@@ -1838,7 +1838,7 @@
 		(uuid "b3d11436-d3a8-4f7a-9519-f6f2141040dd")
 	)
 	(junction
-		(at 121.92 92.71)
+		(at 104.14 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5edd296-44b5-4ae5-bcb5-f51a9c4b5bd9")
@@ -1851,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 83.82) (xy 121.92 83.82)
+			(xy 92.71 83.82) (xy 104.14 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 121.92 92.71)
+			(xy 104.14 91.44) (xy 104.14 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 91.44) (xy 110.49 92.71)
+			(xy 92.71 91.44) (xy 92.71 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1971,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 92.71) (xy 121.92 92.71)
+			(xy 92.71 92.71) (xy 104.14 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 132.08 83.82)
+			(xy 104.14 83.82) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 121.92 93.98)
+			(xy 104.14 92.71) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2141,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 105.41 81.28)
+			(xy 86.36 81.28) (xy 105.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2221,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 110.49 83.82)
+			(xy 86.36 83.82) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2353,6 +2353,28 @@
 			)
 		)
 	)
+	(global_label "OutdoorTemp"
+		(shape input)
+		(at 132.08 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "339745d0-7af9-47b6-a9c9-2e31c8ee062f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.7579 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape output)
 		(at 76.2 34.29 0)
@@ -2375,6 +2397,28 @@
 			)
 		)
 	)
+	(global_label "IndoorTemp"
+		(shape output)
+		(at 48.26 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a375f5b-3586-464f-b1df-368c028f9c15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1307 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Battery+"
 		(shape output)
 		(at 220.98 50.8 180)
@@ -2388,6 +2432,28 @@
 		(uuid "66e0ec17-38b7-454f-812f-84ce92b80a81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.7096 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IndoorTemp"
+		(shape input)
+		(at 132.08 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c5ec0c9-8f28-4d97-bd35-496e4b1b8a3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2093 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2597,7 @@
 	)
 	(global_label "Battery+"
 		(shape input)
-		(at 154.94 30.48 180)
+		(at 34.29 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2541,7 +2607,29 @@
 		)
 		(uuid "a504d6a3-2f97-4abd-9996-8708870ef07a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.6696 30.48 0)
+			(at 23.0196 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 34.29 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8f540e6-2786-4825-8fca-8b8ac6143b56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.1924 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,9 +2661,31 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 34.29 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b90aa1c7-6b82-4dd3-8214-e719fbe0c5b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.1924 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BatteryVoltage"
 		(shape output)
-		(at 168.91 27.94 0)
+		(at 48.26 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2585,7 +2695,7 @@
 		)
 		(uuid "c35a0857-08cd-43b5-ab1f-66a321658182")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.6231 27.94 0)
+			(at 64.9731 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2707,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 104.14 81.28 180)
+		(at 86.36 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2607,7 +2717,7 @@
 		)
 		(uuid "d0955f25-bde1-46fd-a8c1-ae7fb618eeff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3772 81.28 0)
+			(at 78.5972 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2729,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 154.94 27.94 180)
+		(at 34.29 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2629,7 +2739,7 @@
 		)
 		(uuid "d3e194f1-985d-429b-8062-df488f76fe20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6567 27.94 0)
+			(at 29.0067 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2751,7 @@
 	)
 	(global_label "Battery-"
 		(shape input)
-		(at 154.94 33.02 180)
+		(at 34.29 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2651,7 +2761,7 @@
 		)
 		(uuid "d8370923-6e45-4a3e-86f6-95ac7bb84006")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.6696 33.02 0)
+			(at 23.0196 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2839,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 104.14 83.82 180)
+		(at 86.36 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2739,12 +2849,34 @@
 		)
 		(uuid "f3a8104b-655b-4c86-af02-3814a7f5f213")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.0424 83.82 0)
+			(at 79.2624 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OutdoorTemp"
+		(shape output)
+		(at 48.26 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa257114-29dc-41ed-860e-197904ff7b6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5821 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2887,7 +3019,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 87.63 0)
+		(at 92.71 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2896,7 +3028,7 @@
 		(fields_autoplaced yes)
 		(uuid "29b744a2-8fda-4709-a163-f92661e7698f")
 		(property "Reference" "C10"
-			(at 114.3 86.3599 0)
+			(at 96.52 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +3037,7 @@
 			)
 		)
 		(property "Value" "1µ"
-			(at 114.3 88.8999 0)
+			(at 96.52 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +3046,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 111.4552 91.44 0)
+			(at 93.6752 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 87.63 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +3064,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 110.49 87.63 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3350,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 87.63 0)
+		(at 104.14 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3227,7 +3359,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c716e95-e060-4904-91c7-70174584a72d")
 		(property "Reference" "C8"
-			(at 125.73 86.3599 0)
+			(at 107.95 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3368,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 125.73 88.8999 0)
+			(at 107.95 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3377,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 122.8852 91.44 0)
+			(at 105.1052 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 87.63 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3395,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 87.63 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 93.98 0)
+		(at 104.14 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3297,7 +3429,7 @@
 		(fields_autoplaced yes)
 		(uuid "68c3120c-98b6-4434-a9ac-3062cf9563a5")
 		(property "Reference" "#PWR05"
-			(at 121.92 100.33 0)
+			(at 104.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 99.06 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 93.98 0)
+			(at 104.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 93.98 0)
+			(at 104.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 93.98 0)
+			(at 104.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,6 +4300,130 @@
 		)
 	)
 	(sheet
+		(at 34.29 134.62)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "233fdc66-cabb-4bf4-9059-20f2ac1021ef")
+		(property "Sheetname" "Outdoor temperature"
+			(at 34.29 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outdoor_temperature.kicad_sch"
+			(at 34.29 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 34.29 137.16 180)
+			(uuid "86387059-4ee2-42ee-bcfa-758fb8d67c77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 48.26 137.16 0)
+			(uuid "98926c3e-af1a-4e89-9ccb-a0801f56dea1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Caravan-monitor"
+				(path "/4b94aa5f-1c73-4d2e-8117-e53a25103462"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 121.92)
+		(size 13.97 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e488f1d-7b26-4619-9996-dd92d2ed7591")
+		(property "Sheetname" "Indoor temperature"
+			(at 34.29 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "indoor_temperature.kicad_sch"
+			(at 34.29 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 34.29 124.46 180)
+			(uuid "8cbace49-09c6-4155-88c3-4c3dffc661ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 48.26 124.46 0)
+			(uuid "136085fd-e434-47b5-99cf-f0ffae55622e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Caravan-monitor"
+				(path "/4b94aa5f-1c73-4d2e-8117-e53a25103462"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 224.79 81.28)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
@@ -4230,7 +4486,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 26.67)
+		(at 34.29 102.87)
 		(size 13.97 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4246,7 +4502,7 @@
 		)
 		(uuid "d258f66e-e5df-4c19-b388-314e08f08f46")
 		(property "Sheetname" "Battery voltage monitoring"
-			(at 154.94 25.9584 0)
+			(at 34.29 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4511,7 @@
 			)
 		)
 		(property "Sheetfile" "voltage_monitor.kicad_sch"
-			(at 154.94 36.1446 0)
+			(at 34.29 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4520,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 154.94 27.94 180)
+			(at 34.29 104.14 180)
 			(uuid "3ba47c41-7f1b-40e1-b576-bfb9fe6f6b55")
 			(effects
 				(font
@@ -4274,7 +4530,7 @@
 			)
 		)
 		(pin "Battery+" input
-			(at 154.94 30.48 180)
+			(at 34.29 106.68 180)
 			(uuid "9929310a-3df1-4948-a357-0528bbb6e3ff")
 			(effects
 				(font
@@ -4284,7 +4540,7 @@
 			)
 		)
 		(pin "Battery-" input
-			(at 154.94 33.02 180)
+			(at 34.29 109.22 180)
 			(uuid "822ab6dd-9cac-4258-b949-2d4973d5ebde")
 			(effects
 				(font
@@ -4294,7 +4550,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 168.91 27.94 0)
+			(at 48.26 104.14 0)
 			(uuid "d8ed173f-e012-4e10-ad1d-0a6d0369869f")
 			(effects
 				(font
