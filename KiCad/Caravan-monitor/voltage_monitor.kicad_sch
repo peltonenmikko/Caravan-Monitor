@@ -592,7 +592,7 @@
 		)
 		(uuid "f8480cab-8817-440c-9fe3-c9f7f2bf2860")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "Vin"
 		(shape input)
 		(at 149.86 71.12 90)
 		(effects
