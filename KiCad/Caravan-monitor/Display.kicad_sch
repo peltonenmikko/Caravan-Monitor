@@ -1234,100 +1234,6 @@
 		(uuid "ec4774b9-365b-4760-95b8-ea1970b9aec3")
 	)
 	(symbol
-		(lib_id "Display_Character:NHD-C0220BIZ")
-		(at 130.81 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c5bb17f-60e1-46c4-ad29-a52075c68434")
-		(property "Reference" "U1"
-			(at 132.9533 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NHD-C0220BIZ"
-			(at 132.9533 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Display:NHD-C0220BiZ"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf"
-			(at 123.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LCD 20x2 Alphanumeric 10pin Blue/White/Green Backlight, i2c, 3.3V VDD"
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "daaadc4f-d3b8-42ba-b119-39371ba4188b")
-		)
-		(pin "8"
-			(uuid "55a77463-6957-4764-a408-e11b6a33a178")
-		)
-		(pin "4"
-			(uuid "5fbb1d26-1eaf-45a4-ae39-39a98ec8849e")
-		)
-		(pin "10"
-			(uuid "97d49ad4-b7ee-46c0-ab0b-b7ab1d64f356")
-		)
-		(pin "3"
-			(uuid "2d6d077a-aee1-4f2a-a6de-0d2c692e692f")
-		)
-		(pin "9"
-			(uuid "7146197d-1d14-498b-8029-2ca1ab71f77c")
-		)
-		(pin "7"
-			(uuid "a73e35d0-6e8f-487d-84e0-36a43f013ae8")
-		)
-		(pin "1"
-			(uuid "766f67e8-21fd-4743-9de4-c7697fb6e16e")
-		)
-		(pin "6"
-			(uuid "28307ca5-6599-41a8-a81d-d4f0914ca5c4")
-		)
-		(pin "2"
-			(uuid "ecf1e761-73d0-41d7-a0d2-da227fcca80e")
-		)
-		(instances
-			(project "Caravan-monitor"
-				(path "/4b94aa5f-1c73-4d2e-8117-e53a25103462/cce71e77-7787-4cb1-906b-50acc77f952f"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 149.86 99.06 180)
 		(unit 1)
@@ -1355,7 +1261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 151.638 99.06 90)
 			(effects
 				(font
@@ -1567,7 +1473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 120.3452 82.55 0)
 			(effects
 				(font
@@ -1635,7 +1541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 132.08 123.698 90)
 			(effects
 				(font
@@ -1705,7 +1611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 150.8252 92.71 0)
 			(effects
 				(font
@@ -1775,7 +1681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 115.8748 101.6 0)
 			(effects
 				(font
@@ -1878,6 +1784,100 @@
 			(project "Caravan-monitor"
 				(path "/4b94aa5f-1c73-4d2e-8117-e53a25103462/cce71e77-7787-4cb1-906b-50acc77f952f"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Display_Character:NHD-C0220BIZ")
+		(at 130.81 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0bf7d4d-b562-4810-96e7-5482047187c7")
+		(property "Reference" "U1"
+			(at 132.9533 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NHD-C0220BIZ"
+			(at 132.9533 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Display:NHD-C0220BiZ"
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LCD 20x2 Alphanumeric 10pin Blue/White/Green Backlight, i2c, 3.3V VDD"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "15618da5-f201-4d6b-85bc-9a3bc2f8028a")
+		)
+		(pin "9"
+			(uuid "ecf445c6-e851-437e-a601-d97397c6f58b")
+		)
+		(pin "1"
+			(uuid "1b3895e2-7edd-4420-8010-34dcf8adfa13")
+		)
+		(pin "8"
+			(uuid "f2435922-ab76-444d-abae-f2259ce81ec3")
+		)
+		(pin "10"
+			(uuid "7680d96c-1976-4cf0-aaab-ab9fe5372183")
+		)
+		(pin "2"
+			(uuid "79ce4dfa-5a9b-4d57-9fe8-ee8549fb80f5")
+		)
+		(pin "6"
+			(uuid "8587dcb0-c510-42e1-91b8-da6e1a245b7c")
+		)
+		(pin "5"
+			(uuid "1e8a85c7-824c-4ad5-b850-fbe17f472c46")
+		)
+		(pin "3"
+			(uuid "3d05384f-9af5-4d16-933c-0768c50a9a32")
+		)
+		(pin "4"
+			(uuid "d1a40794-c22b-4e69-af24-651fd89eac07")
+		)
+		(instances
+			(project ""
+				(path "/4b94aa5f-1c73-4d2e-8117-e53a25103462/cce71e77-7787-4cb1-906b-50acc77f952f"
+					(reference "U1")
 					(unit 1)
 				)
 			)
