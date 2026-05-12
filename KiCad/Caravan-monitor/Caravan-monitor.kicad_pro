@@ -633,38 +633,6 @@
     [
       "4b94aa5f-1c73-4d2e-8117-e53a25103462",
       "Root"
-    ],
-    [
-      "ab3579b6-0764-406b-a3c2-b2926f9506eb",
-      "3.3V Power supply"
-    ],
-    [
-      "d258f66e-e5df-4c19-b388-314e08f08f46",
-      "Battery voltage monitoring"
-    ],
-    [
-      "2e488f1d-7b26-4619-9996-dd92d2ed7591",
-      "Indoor temperature"
-    ],
-    [
-      "233fdc66-cabb-4bf4-9059-20f2ac1021ef",
-      "Outdoor temperature"
-    ],
-    [
-      "9f63e686-1700-4f89-a18f-40eeb790baed",
-      "Coolant temperature"
-    ],
-    [
-      "a3633ad7-205f-4b33-84d7-ee84b195f250",
-      "Water tank 1"
-    ],
-    [
-      "851f2a24-5658-4162-92c4-0233905600df",
-      "Water tank 2"
-    ],
-    [
-      "cce71e77-7787-4cb1-906b-50acc77f952f",
-      "Display"
     ]
   ],
   "text_variables": {}
