@@ -633,6 +633,10 @@
     [
       "4b94aa5f-1c73-4d2e-8117-e53a25103462",
       "Root"
+    ],
+    [
+      "409d01be-9fae-47da-8b29-1e7bf2aed325",
+      "PowerSupply"
     ]
   ],
   "text_variables": {}
